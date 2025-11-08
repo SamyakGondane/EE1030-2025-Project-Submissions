@@ -18,12 +18,12 @@ This folder contains the full C implementation for computing truncated SVD and c
 
 ## Compilation
 
-'''bash
+```bash
 gcc main.c -o main.c -lm
-'''
+```
 
 ## Usage
 
-'''bash
+```bash
 ./main image.pgm 5 20 50 100
-'''
+```
