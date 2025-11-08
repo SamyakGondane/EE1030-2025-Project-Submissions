@@ -12,6 +12,7 @@ This folder contains the full C implementation for computing truncated SVD and c
   - Matrix operations (multiplication, transpose, normalization)
   - Reconstruction of Ak = Uk × Σk × Vkᵀ
   - Frobenius norm error calculation
+- 'README.md' - This file
 
 ---
 
