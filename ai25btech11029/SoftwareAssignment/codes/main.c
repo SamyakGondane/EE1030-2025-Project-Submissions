@@ -66,12 +66,7 @@ static unsigned char *read_p5_pgm(const char *path, int *width, int *height, int
         return NULL;
     }
     fgetc(f);
-    if (*maxval > 255)
-    {
-        fprintf(stderr, "Only maxval <= 255 supported in this program.\n");
-        fclose(f);
-        return NULL;
-    }
+   
     long npix = (long)(*width) * (*height);
     unsigned char *buf = malloc(npix);
     if (!buf)
