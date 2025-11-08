@@ -3,24 +3,24 @@
 This repository contains the full C implementation of image compression using **truncated Singular Value Decomposition (SVD)** as part of the Matrix Theory (AI1000) course project.
 
 ## Author
-**Samyak Gondane**\\
-Course: Matrix Theory (AI1000)\\
+**Samyak Gondane**  
+Course: Matrix Theory (AI1000)  
 Submission: November 2025
 
 ---
 
 ## Project Structure
 
-SoftwareAssignment/\\
-├── codes/ # Contains all C source files\\
-├── figs/ # Reconstructed images (JPG format)\\
-├── tables/\\
-│   ├── Comparison of Algorithms.tex\\
-│   ├── Error analysis einstein.tex\\
-│   ├── Error analysis globe.tex\\
-│   └── Error analysis greyscale.tex\\
-├── report.pdf\\
-└── README.md\\
+SoftwareAssignment/  
+├── codes/ # Contains all C source files  
+├── figs/ # Reconstructed images (JPG format)  
+├── tables/  
+│   ├── Comparison of Algorithms.tex  
+│   ├── Error analysis einstein.tex  
+│   ├── Error analysis globe.tex  
+│   └── Error analysis greyscale.tex  
+├── report.pdf  
+└── README.md  
 
 
 ---
